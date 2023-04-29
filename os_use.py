@@ -36,6 +36,7 @@ for filename in os.listdir(os.chdir(link1)):
         else:
             # If no files with such name this is the prompt which it gives
             print("Directory contains no such files")
+            break
     except FileExistsError:
         pass
 
